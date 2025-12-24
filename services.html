@@ -22,7 +22,7 @@
         <header class="themeHeader">
             <div class="container">
                 <div class="themeNavbar">
-                    <a href="#">
+                    <a href="index.html">
                         <img class="mainLogo" src="assets/img/logo.png" alt="">
                     </a>
                     <div class="navMenu">
@@ -32,7 +32,8 @@
                         <a href="products.html">Products</a>
                         <a href="contact.html">Contact us</a>
                     </div>
-                    <button class="gshop-offcanvas-btn mobileMenu">
+                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenuBar"
+                        aria-controls="mobileMenuBar" class="gshop-offcanvas-btn mobileMenu">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M3.5892 0C1.66061 0 0.0917969 1.56893 0.0917969 3.4974C0.0917969 5.42588 1.65997 6.9947 3.5892 6.9947C5.51844 6.9947 7.08661 5.42588 7.08661 3.4974C7.08661 1.56893 5.51768 0 3.5892 0Z"
@@ -63,6 +64,24 @@
                                 fill="white"></path>
                         </svg>
                     </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenuBar"
+                        aria-labelledby="mobileMenuBarLabel">
+                        <div class="offcanvas-header">
+                            <img src="assets/img/logo.png" alt="">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul>
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About Us</a>
+                                <a href="services.html">Services</a>
+                                <a href="products.html">Products</a>
+                                <a href="contact.html">Contacts</a>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -111,23 +130,21 @@
         <!--breadcrumb section end-->
 
         <!--service section start-->
-        <section class="service-section ptb-120 position-relative z-1 overflow-hidden">
+        <section class="service-section position-relative z-1 overflow-hidden">
             <img src="assets/img/shapes/bg-shape-4.png" alt="bg shape"
                 class="position-absolute start-0 bottom-0 w-100 z--1 bg-shape">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-xl-6">
                         <div class="section-title text-center text-xl-start">
-                            <h2 class="mb-0">We're Provide Natural & Organic Vegetable</h2>
+                            <h2 class="mb-0">Fresh & Reliable Grocery<br>Services You Can Trust</h2>
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <div class="section-desc text-center text-xl-start">
-                            <p class="mb-3">Holisticly coordinate client-based applications flexible supply chains.
-                                evolve principle-centered process improvements through cost effective information.
-                                leadership. Credibly whiteboard stand-alone.</p>
-                            <a href="#" class="text-secondary fw-bold fs-xs">Loading...<span class="ms-2"><i
-                                        class="fas fa-arrow-right"></i></span></a>
+                            <p class="mb-3">We provide a complete grocery shopping experience by offering a wide range
+                                of fresh and organic products for everyday needs.</p>
+
                         </div>
                     </div>
                 </div>
@@ -138,12 +155,12 @@
                                 <img src="assets/img/icons/cart-color.svg" alt="icon" class="img-fluid icon-color">
                                 <img src="assets/img/icons/cart-white.svg" alt="icon" class="img-fluid icon-white">
                             </div>
-                            <a href="service-details.html">
-                                <h5 class="mb-3">Agriculture Products</h5>
+                            <a href="#">
+                                <h5 class="mb-3">Fresh & Organic Products</h5>
                             </a>
-                            <p class="mb-5">Based applications flexible supply chains. evolve principle-centered
-                                whiteboard stand-alone.</p>
-                            <a href="service-details.html" class="explore-btn fw-bold">Explore More<span class="ms-2"><i
+                            <p class="mb-5">We offer a wide selection of fresh and organic groceries, carefully sourced
+                                to maintain quality, taste, and nutrition.</p>
+                            <a href="#" class="explore-btn fw-bold">Explore More<span class="ms-2"><i
                                         class="fas fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -153,12 +170,12 @@
                                 <img src="assets/img/icons/organic-color.svg" alt="icon" class="img-fluid icon-color">
                                 <img src="assets/img/icons/organic-white.svg" alt="icon" class="img-fluid icon-white">
                             </div>
-                            <a href="service-details.html">
-                                <h5 class="mb-3">Organic Products</h5>
+                            <a href="#">
+                                <h5 class="mb-3">Quality Assured</h5>
                             </a>
-                            <p class="mb-5">Based applications flexible supply chains. evolve principle-centered
-                                whiteboard stand-alone.</p>
-                            <a href="service-details.html" class="explore-btn fw-bold">Explore More<span class="ms-2"><i
+                            <p class="mb-5">Every product goes through strict quality checks to ensure freshness,
+                                hygiene, and safety for your family.</p>
+                            <a href="#" class="explore-btn fw-bold">Explore More<span class="ms-2"><i
                                         class="fas fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -168,12 +185,12 @@
                                 <img src="assets/img/icons/milk-color.svg" alt="icon" class="img-fluid icon-color">
                                 <img src="assets/img/icons/milk-white.svg" alt="icon" class="img-fluid icon-white">
                             </div>
-                            <a href="service-details.html">
-                                <h5 class="mb-3">Milk Sweet Products</h5>
+                            <a href="#">
+                                <h5 class="mb-3">Healthy Living Focus</h5>
                             </a>
-                            <p class="mb-5">Based applications flexible supply chains. evolve principle-centered
-                                whiteboard stand-alone.</p>
-                            <a href="service-details.html" class="explore-btn fw-bold">Explore More<span class="ms-2"><i
+                            <p class="mb-5">Our product range supports a healthy lifestyle with natural, organic, and
+                                nutrient-rich grocery options.</p>
+                            <a href="#" class="explore-btn fw-bold">Explore More<span class="ms-2"><i
                                         class="fas fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -183,12 +200,12 @@
                                 <img src="assets/img/icons/delivery-color.svg" alt="icon" class="img-fluid icon-color">
                                 <img src="assets/img/icons/delivery-white.svg" alt="icon" class="img-fluid icon-white">
                             </div>
-                            <a href="service-details.html">
-                                <h5 class="mb-3">Delivery Service</h5>
+                            <a href="#">
+                                <h5 class="mb-3">Trusted by Families</h5>
                             </a>
-                            <p class="mb-5">Based applications flexible supply chains. evolve principle-centered
-                                whiteboard stand-alone.</p>
-                            <a href="service-details.html" class="explore-btn fw-bold">Explore More<span class="ms-2"><i
+                            <p class="mb-5">We are committed to building trust by delivering consistent quality and
+                                reliable grocery services.</p>
+                            <a href="#" class="explore-btn fw-bold">Explore More<span class="ms-2"><i
                                         class="fas fa-arrow-right"></i></span></a>
                         </div>
                     </div>
@@ -269,75 +286,88 @@
             </div>
         </section> <!--about section end-->
 
-        <!--faq section start-->
-        <section class="faq-section ptb-120 position-relative overflow-hidden z-1">
-            <img src="assets/img/shapes/frame-circle.svg" alt="circle shape"
-                class="position-absolute frame-circle z--1">
-            <img src="assets/img/shapes/leaf.svg" alt="circle shape" class="position-absolute leaf z--1">
-            <img src="assets/img/shapes/cauliflower.png" alt="cauliflower" class="position-absolute cauliflower z--1">
+
+        <!--about us section-->
+        <section class="about-us-section pb-120">
             <div class="container">
-                <div class="row g-5">
-                    <div class="col-xl-7">
-                        <div class="feature-image p-3 text-center">
-                            <img src="assets/img/about/girl.png" alt="girl" class="img-fluid">
+                <div class="row g-4 align-items-center">
+                    <div class="col-xl-5">
+                        <div class="about-us-left position-relative">
+                            <img src="assets/img/custom/customImg7.png" alt="not found" class="img-fluid">
+
                         </div>
                     </div>
-                    <div class="col-xl-5">
-                        <div class="faq-right">
-                            <h4 class="mb-4">We Care Your Family to Natural Products</h4>
-                            <p class="mb-5">Holisticly coordinate client-based applications flexible supply chains.
-                                evolve leadership. Credibly whiteboard stand-alone.</p>
-                            <div class="accordion faq-accordion" id="faq-accordion">
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <a href="#acc-1" data-bs-toggle="collapse">Why Need Organic Foods For Life<i
-                                                class="fas fa-angle-down float-end ms-1"></i></a>
-                                    </div>
-                                    <div class="accordion-collapse collapse show" id="acc-1"
-                                        data-bs-parent="#faq-accordion">
-                                        <div class="accordion-body">
-                                            <p class="mb-0">Synergistically enable robust information before e-business
-                                                leadership. Holisticly pursue worldwide methodologies without timely
-                                                materials fabricate covalent internal.</p>
+                    <div class="col-xl-7">
+                        <div class="about-us-right">
+                            <div class="section-title-mx mb-6">
+                                <div class="d-flex align-items-center gap-2 flex-wrap mb-2">
+                                    <h6 class="mb-0 gshop-subtitle text-secondary">Why Choose Us</h6>
+                                    <span>
+                                        <svg width="58" height="10" viewBox="0 0 58 10" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <line x1="-6.99382e-08" y1="5.2" x2="52" y2="5.2" stroke="#FF7C08"
+                                                stroke-width="1.6" />
+                                            <path d="M58 5L50.5 9.33013L50.5 0.669872L58 5Z" fill="#FF7C08" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <h2 class="mb-3">Your Healthy Grocery Partner</h2>
+                                <p class="mb-0">At our store, we bring you the freshest and highest-quality groceries,
+                                    all in one place. From everyday essentials to organic specialties, we focus on
+                                    providing products that are healthy, safe, and reliable.</p>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div
+                                        class="horizontal-icon-box d-flex align-items-center gap-4 bg-white rounded p-4 hover-shadow flex-wrap flex-xxl-nowrap">
+                                        <span class="icon-wrapper position-relative flex-shrink-0">
+                                            <img src="assets/img/icons/hand-icon.svg" alt="hand icon" class="img-fluid">
+                                        </span>
+                                        <div class="content-right">
+                                            <h5 class="mb-3">Fresh & Organic Products</h5>
+                                            <p class="mb-0">We offer a wide range of fresh and organic groceries,
+                                                carefully sourced to ensure quality, purity, and great taste in every
+                                                product.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <a href="#acc-2" data-bs-toggle="collapse" class="collapsed">Why Need Organic
-                                            Foods For Life<i class="fas fa-angle-down float-end ms-1"></i></a>
-                                    </div>
-                                    <div class="accordion-collapse collapse" id="acc-2" data-bs-parent="#faq-accordion">
-                                        <div class="accordion-body">
-                                            <p class="mb-0">Synergistically enable robust information before e-business
-                                                leadership. Holisticly pursue worldwide methodologies without timely
-                                                materials fabricate covalent internal.</p>
+                                <div class="col-md-6">
+                                    <div
+                                        class="horizontal-icon-box d-flex align-items-center gap-4 bg-white rounded p-4 hover-shadow flex-wrap flex-xxl-nowrap">
+                                        <span class="icon-wrapper position-relative flex-shrink-0">
+                                            <img src="assets/img/icons/hand-icon.svg" alt="hand icon" class="img-fluid">
+                                        </span>
+                                        <div class="content-right">
+                                            <h5 class="mb-3">Wide Variety of Groceries</h5>
+                                            <p class="mb-0">From daily essentials to specialty items, our platform
+                                                brings all types of groceries together—making your shopping experience
+                                                complete and convenient.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <a href="#acc-3" data-bs-toggle="collapse" class="collapsed">Why Need Organic
-                                            Foods For Life<i class="fas fa-angle-down float-end ms-1"></i></a>
-                                    </div>
-                                    <div class="accordion-collapse collapse" id="acc-3" data-bs-parent="#faq-accordion">
-                                        <div class="accordion-body">
-                                            <p class="mb-0">Synergistically enable robust information before e-business
-                                                leadership. Holisticly pursue worldwide methodologies without timely
-                                                materials fabricate covalent internal.</p>
+                                <div class="col-md-6">
+                                    <div
+                                        class="horizontal-icon-box d-flex align-items-center gap-4 bg-white rounded p-4 hover-shadow flex-wrap flex-xxl-nowrap">
+                                        <span class="icon-wrapper position-relative flex-shrink-0">
+                                            <img src="assets/img/icons/hand-icon.svg" alt="hand icon" class="img-fluid">
+                                        </span>
+                                        <div class="content-right">
+                                            <h5 class="mb-3">Quality You Can Trust</h5>
+                                            <p class="mb-0">Every product is selected with care to meet high standards
+                                                of freshness, safety, and reliability for you and your family.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <a href="#acc-4" data-bs-toggle="collapse" class="collapsed">Why Need Organic
-                                            Foods For Life<i class="fas fa-angle-down float-end ms-1"></i></a>
-                                    </div>
-                                    <div class="accordion-collapse collapse" id="acc-4" data-bs-parent="#faq-accordion">
-                                        <div class="accordion-body">
-                                            <p class="mb-0">Synergistically enable robust information before e-business
-                                                leadership. Holisticly pursue worldwide methodologies without timely
-                                                materials fabricate covalent internal.</p>
+                                <div class="col-md-6">
+                                    <div
+                                        class="horizontal-icon-box d-flex align-items-center gap-4 bg-white rounded p-4 hover-shadow flex-wrap flex-xxl-nowrap">
+                                        <span class="icon-wrapper position-relative flex-shrink-0">
+                                            <img src="assets/img/icons/hand-icon.svg" alt="hand icon" class="img-fluid">
+                                        </span>
+                                        <div class="content-right">
+                                            <h5 class="mb-3">Healthy Living Focus</h5>
+                                            <p class="mb-0">We believe good food leads to a better life. That’s why we
+                                                focus on products that support a healthy and balanced lifestyle.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -346,92 +376,7 @@
                     </div>
                 </div>
             </div>
-        </section> <!--faq section end-->
-
-        <!--feedback section start-->
-        <section class="feedback-section pb-120">
-            <div class="container">
-                <div class="row align-items-center g-4">
-                    <div class="col-xl-7">
-                        <div class="clients_thumb">
-                            <img src="assets/img/about/clients.png" alt="clients" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-xl-5">
-                        <div class="swiper feedback-slider-2">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide feedback-card bg-white rounded py-6 px-4">
-                                    <div class="d-flex align-items-center gap-4 flex-wrap mb-4">
-                                        <img src="assets/img/authors/client-1.png" alt="client"
-                                            class="img-fluid rounded-circle flex-shrink-0">
-                                        <div class="clients-info">
-                                            <h5 class="mb-1">George Nakashima</h5>
-                                            <ul class="d-flex align-items-center fs-xs text-warning">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="mb-0">“Conveniently synergize premium collaboration and idea-sharing with
-                                        compelling "outside the box" thinking. Interactivel product distinctive
-                                        paradigms whereas one-to-one intellectual capital. resource sucking services.
-                                        Objectively customize vertical.”</p>
-                                </div>
-                                <div class="swiper-slide feedback-card bg-white rounded py-6 px-4">
-                                    <div class="d-flex align-items-center gap-4 flex-wrap mb-4">
-                                        <img src="assets/img/authors/client-2.png" alt="client"
-                                            class="img-fluid rounded-circle flex-shrink-0">
-                                        <div class="clients-info">
-                                            <h5 class="mb-1">George Nakashima</h5>
-                                            <ul class="d-flex align-items-center fs-xs text-warning">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="mb-0">“Conveniently synergize premium collaboration and idea-sharing with
-                                        compelling "outside the box" thinking. Interactivel product distinctive
-                                        paradigms whereas one-to-one intellectual capital. resource sucking services.
-                                        Objectively customize vertical.”</p>
-                                </div>
-                                <div class="swiper-slide feedback-card bg-white rounded py-6 px-4">
-                                    <div class="d-flex align-items-center gap-4 flex-wrap mb-4">
-                                        <img src="assets/img/authors/client-3.png" alt="client"
-                                            class="img-fluid rounded-circle flex-shrink-0">
-                                        <div class="clients-info">
-                                            <h5 class="mb-1">George Nakashima</h5>
-                                            <ul class="d-flex align-items-center fs-xs text-warning">
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                                <li><i class="fas fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <p class="mb-0">“Conveniently synergize premium collaboration and idea-sharing with
-                                        compelling "outside the box" thinking. Interactivel product distinctive
-                                        paradigms whereas one-to-one intellectual capital. resource sucking services.
-                                        Objectively customize vertical.”</p>
-                                </div>
-                            </div>
-                            <div class="slider-arrows text-end mt-5">
-                                <button type="button" class="fd2-arrow-left"><i class="fas fa-angle-left"></i></button>
-                                <button type="button" class="fd2-arrow-right"><i
-                                        class="fas fa-angle-right"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> <!--feedback section end-->
-
+        </section> <!--about us section end-->
 
 
 
@@ -465,11 +410,11 @@
                         <div class="footer-widget">
                             <h5 class="text-white mb-4">Quick Links</h5>
                             <ul class="footer-nav">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Categories</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
                             </ul>
                         </div>
                     </div>

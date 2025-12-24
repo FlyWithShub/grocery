@@ -22,7 +22,7 @@
         <header class="themeHeader">
             <div class="container">
                 <div class="themeNavbar">
-                    <a href="#">
+                    <a href="index.html">
                         <img class="mainLogo" src="assets/img/logo.png" alt="">
                     </a>
                     <div class="navMenu">
@@ -32,7 +32,8 @@
                         <a href="#">Products</a>
                         <a href="#">Contact us</a>
                     </div>
-                    <button class="gshop-offcanvas-btn mobileMenu">
+                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenuBar"
+                        aria-controls="mobileMenuBar" class="gshop-offcanvas-btn mobileMenu">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M3.5892 0C1.66061 0 0.0917969 1.56893 0.0917969 3.4974C0.0917969 5.42588 1.65997 6.9947 3.5892 6.9947C5.51844 6.9947 7.08661 5.42588 7.08661 3.4974C7.08661 1.56893 5.51768 0 3.5892 0Z"
@@ -63,6 +64,24 @@
                                 fill="white"></path>
                         </svg>
                     </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenuBar"
+                        aria-labelledby="mobileMenuBarLabel">
+                        <div class="offcanvas-header">
+                            <img src="assets/img/logo.png" alt="">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul>
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About Us</a>
+                                <a href="services.html">Services</a>
+                                <a href="products.html">Products</a>
+                                <a href="contact.html">Contacts</a>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -661,11 +680,11 @@
                         <div class="footer-widget">
                             <h5 class="text-white mb-4">Quick Links</h5>
                             <ul class="footer-nav">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Categories</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
                             </ul>
                         </div>
                     </div>

@@ -22,7 +22,7 @@
         <header class="themeHeader">
             <div class="container">
                 <div class="themeNavbar">
-                    <a href="#">
+                    <a href="index.html">
                         <img class="mainLogo" src="assets/img/logo.png" alt="">
                     </a>
                     <div class="navMenu">
@@ -32,7 +32,8 @@
                         <a href="products.html">Products</a>
                         <a href="contact.html">Contact us</a>
                     </div>
-                    <button class="gshop-offcanvas-btn mobileMenu">
+                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenuBar"
+                        aria-controls="mobileMenuBar" class="gshop-offcanvas-btn mobileMenu">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M3.5892 0C1.66061 0 0.0917969 1.56893 0.0917969 3.4974C0.0917969 5.42588 1.65997 6.9947 3.5892 6.9947C5.51844 6.9947 7.08661 5.42588 7.08661 3.4974C7.08661 1.56893 5.51768 0 3.5892 0Z"
@@ -63,6 +64,24 @@
                                 fill="white"></path>
                         </svg>
                     </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenuBar"
+                        aria-labelledby="mobileMenuBarLabel">
+                        <div class="offcanvas-header">
+                            <img src="assets/img/logo.png" alt="">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul>
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About Us</a>
+                                <a href="services.html">Services</a>
+                                <a href="products.html">Products</a>
+                                <a href="contact.html">Contacts</a>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -94,13 +113,12 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcrumb-content">
-                            <h2 class="mb-2 text-center">About Us</h2>
+                            <h2 class="mb-2 text-center">Contact Us</h2>
                             <nav>
                                 <ol class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item fw-semibold" aria-current="page"><a
                                             href="index.html">Home</a></li>
-                                    <li class="breadcrumb-item fw-semibold" aria-current="page">Page</li>
-                                    <li class="breadcrumb-item fw-semibold" aria-current="page">About</li>
+                                    <li class="breadcrumb-item fw-semibold" aria-current="page">Contact us</li>
                                 </ol>
                             </nav>
                         </div>
@@ -122,15 +140,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-12">
                         <div class="breadcrumb-content">
-                            <h2 class="mb-2 text-center">Get In Touch</h2>
-                            <nav>
-                                <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item fw-bold" aria-current="page"><a
-                                            href="index-2.html">Home</a></li>
-                                    <li class="breadcrumb-item fw-bold" aria-current="page">Page</li>
-                                    <li class="breadcrumb-item fw-bold" aria-current="page">Contact Page</li>
-                                </ol>
-                            </nav>
+                            <h2 class="mb-2 text-center">Don't be Shy, Just say Hi.</h2>
+
                         </div>
                     </div>
                 </div>
@@ -142,10 +153,8 @@
                                 <img src="assets/img/shapes/texture-overlay.png" alt="texture"
                                     class="position-absolute w-100 h-100 start-0 top-0 z--1">
                                 <h3 class="text-white mb-3">Contact Details</h3>
-                                <p class="fs-sm text-white"><strong>Office Address-1:</strong> G-shop Grocery shop
-                                    (United Estate<br> Of America) Co., Ltd. Bridge 8, Room 9201.</p>
-                                <p class="fs-sm text-white mb-0"><strong>Office Address-2:</strong> #25 Jocker Goru
-                                    Zhong Road<br> NYPD 200025 USA.</p>
+                                <p class="fs-sm text-white"><strong>Office Address-1:</strong>Vijay Nagar, Indore 452010</p>
+                               
                                 <span class="spacer my-5"></span>
                                 <ul class="contact-list">
                                     <li class="d-flex align-items-center gap-3 flex-wrap">
@@ -154,8 +163,8 @@
                                             <i class="fa-brands fa-whatsapp"></i>
                                         </span>
                                         <div class="info">
-                                            <span class="fw-medium text-white fs-xs">Emergency Call</span>
-                                            <h5 class="mb-0 mt-1 text-white">+90 54 3147 87 98</h5>
+                                            <span class="fw-medium text-white fs-xs">Contact Number</span>
+                                            <h5 class="mb-0 mt-1 text-white">+91 98765 43210</h5>
                                         </div>
                                     </li>
                                     <li class="d-flex align-items-center gap-3 flex-wrap mt-3">
@@ -164,8 +173,8 @@
                                             <i class="fa-regular fa-envelope"></i>
                                         </span>
                                         <div class="info">
-                                            <span class="fw-medium text-white fs-xs">General Communication</span>
-                                            <p class="mb-0 mt-1 text-white fw-medium">gshop2022@gmail.com</p>
+                                            <span class="fw-medium text-white fs-xs">Official Email</span>
+                                            <p class="mb-0 mt-1 text-white fw-medium">info@gmail.com</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -187,13 +196,13 @@
                                     <div class="col-sm-6">
                                         <div class="label-input-field">
                                             <label>First Name</label>
-                                            <input type="text" placeholder="Saiful">
+                                            <input type="text" placeholder="First Name">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="label-input-field">
                                             <label>Last Name</label>
-                                            <input type="text" placeholder="Talukdar">
+                                            <input type="text" placeholder="Last Name">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
@@ -206,33 +215,6 @@
                                         <div class="label-input-field">
                                             <label>Phone</label>
                                             <input type="tel" placeholder="Your phone">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="checkbox-fields d-flex align-items-center gap-3 flex-wrap my-2">
-                                            <div class="single-field d-inline-flex align-items-center gap-2">
-                                                <div class="theme-checkbox">
-                                                    <input type="checkbox" id="delivery">
-                                                    <span class="checkbox-field"><i class="fas fa-check"></i></span>
-                                                </div>
-                                                <label for="delivery" class="text-dark fw-semibold">Delivery
-                                                    Problem</label>
-                                            </div>
-                                            <div class="single-field d-inline-flex align-items-center gap-2">
-                                                <div class="theme-checkbox">
-                                                    <input type="checkbox" id="service">
-                                                    <span class="checkbox-field"><i class="fas fa-check"></i></span>
-                                                </div>
-                                                <label for="service" class="text-dark fw-semibold">Customer
-                                                    Service</label>
-                                            </div>
-                                            <div class="single-field d-inline-flex align-items-center gap-2">
-                                                <div class="theme-checkbox">
-                                                    <input type="checkbox" id="others">
-                                                    <span class="checkbox-field"><i class="fas fa-check"></i></span>
-                                                </div>
-                                                <label for="others" class="text-dark fw-semibold">Others Service</label>
-                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -286,11 +268,11 @@
                         <div class="footer-widget">
                             <h5 class="text-white mb-4">Quick Links</h5>
                             <ul class="footer-nav">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Categories</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
