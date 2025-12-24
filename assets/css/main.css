@@ -34986,6 +34986,7 @@ body {
 .gshop-feedback-thumb-slider {
   max-width: 360px;
   margin: 0 auto;
+  height: 1px;
 }
 .gshop-feedback-thumb-slider .control-thumb {
   opacity: 0;
@@ -36490,6 +36491,7 @@ body {
 }
 .at-header-social {
   left: -100px;
+  display: none !important;
   top: 50%;
   z-index: 50;
   -webkit-transform: translateY(-50%) rotate(-90deg);
@@ -36499,6 +36501,11 @@ body {
   color: #191d28;
   position: relative;
   padding-left: 20px;
+}
+img.productImgage {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
 }
 .at-header-social > span::before {
   content: "";
@@ -37214,7 +37221,7 @@ blockquote::before {
   height: 120px;
 }
 .about-section {
-  padding-bottom: 170px;
+  padding: 100px 0;
 }
 .about-section .roll-color {
   left: 40px;
@@ -37611,8 +37618,12 @@ blockquote::before {
   line-height: 55px;
 }
 .section-title-mx {
-  max-width: 450px;
+  max-width: 100%;
 }
+section.banner-section.position-relative.z-1.overflow-hidden.bg-white.pt-2 {
+  padding: 60px 0;
+}
+
 .horizontal-icon-box .icon-wrapper {
   z-index: 1;
 }
@@ -40104,9 +40115,9 @@ blockquote::before {
   object-fit: contain;
 }
 .themeHeader .themeNavbar .navMenu a {
-    font-size: 15px;
-    font-weight: 500;
-    color: #5d6374;
+  font-size: 15px;
+  font-weight: 500;
+  color: #5d6374;
 }
 .themeHeader .themeNavbar .navMenu {
   align-items: center;
@@ -40116,6 +40127,7 @@ blockquote::before {
 .themeHeader .themeNavbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .gshop-navbar .logo img.img-fluid {
   width: 150px;
@@ -40126,4 +40138,38 @@ blockquote::before {
   width: 150px;
   height: auto;
   object-fit: contain;
+}
+.footerLogo .mainLogo {
+  width: 300px;
+  height: auto;
+}
+.footerLogo p {
+  color: #fff;
+  margin-top: 10px;
+}
+.mobileMenu {
+  display: none;
+}
+@media only screen and (max-width: 576px) {
+  .themeHeader .themeNavbar .navMenu {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+  }
+  .gshop-offcanvas-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px !important;
+  }
+      .gshop-hero .leaf-shape {
+        display: none;
+    }
+    .mobile-toolbar{
+        display: none !important;
+    } 
+    .footerLogo .mainLogo {
+    width: 200px;
+    height: auto;
+}
 }
