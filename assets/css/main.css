@@ -49540,6 +49540,10 @@ section.gshop-category-section.bg-white.pt-120.position-relative.z-1.overflow-hi
 section.pt-120.ab-about-section.position-relative.z-1.overflow-hidden {
   padding-bottom: 50px;
 }
+section.faq-section.position-relative.overflow-hidden.z-1 {
+  padding: 50px 0;
+}
+
 
 @media only screen and (max-width: 576px) {
   .themeHeader .themeNavbar .navMenu {
