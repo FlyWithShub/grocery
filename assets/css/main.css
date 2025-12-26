@@ -43117,20 +43117,17 @@ body {
 
 .vertical-product-card .card-btn {
   padding: 0 24px 32px;
-  position: absolute;
+  position: unset;
   top: 100%;
   left: 0;
   width: 100%;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  -webkit-box-shadow: 0px 20px 30px rgba(120, 120, 120, 0.1);
-  box-shadow: 0px 20px 30px rgba(120, 120, 120, 0.1);
   z-index: 1;
   border-bottom-right-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
-  margin-top: -4px;
 }
 
 .vertical-product-card.border-orc {
@@ -49481,7 +49478,7 @@ section.banner-section.position-relative.z-1.overflow-hidden.bg-white.pt-2 {
 }
 
 .themeHeader .themeNavbar .mainLogo {
-  width: 170px;
+  width: 225px;
   height: auto;
   object-fit: contain;
 }
@@ -49519,6 +49516,9 @@ section.banner-section.position-relative.z-1.overflow-hidden.bg-white.pt-2 {
 .footerLogo .mainLogo {
   width: 300px;
   height: auto;
+  background-color: #fff;
+  padding: 0 5px;
+  border-radius: 10px;
 }
 
 .footerLogo p {
